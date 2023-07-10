@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.head{
+
+height: 850px;
+width: auto;
+background-color:#E554731A ;
+display: flex;
+
+
+}

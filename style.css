@@ -11,7 +11,7 @@
 
 height: 650px;
 width: auto;
-background-color:#E554731A ;
+background-color:#e554731a ;
 display: flex;
 justify-content: space-around;
 border:2px solid black;
@@ -67,6 +67,161 @@ width: 450px;
 
 
 /* this is ending of the header section design. */
+
+/* this is the design of the main section */
+
+
+
+.hot-deal{
+    height: 470px;
+    width: auto;
+    background-color: #E554730D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 150px;
+}
+
+.hot-deal-text{
+    width:500px;
+    height: 150px;
+    text-align: center;
+}
+
+.deal-section-img{
+    width: 280px;
+    height: 380px;
+}
+
+.hot-deal-title{
+    color: #272727;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+
+}
+.hot-deal-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.hot-deal-btn{
+
+padding: 14px 33px;
+border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-size: 15px;
+font-weight: 500;
+margin-top: 25px;
+border: none;
+}
+
+
+.instagram{
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+.instagram-images{
+    display: flex;
+}
+
+
+.instagram h1{
+    text-align: center;
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.instagram-text{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+margin-bottom: 20px;
+}
+
+
+
+
+.instagram-images img{
+    height: 300px;
+    width: 250px;
+    margin-right: 30px;
+}
+
+
+
+
+.latest-deal{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    background-image: url('images/Rectangle 9.png');
+background-size: cover;
+background-repeat: no-repeat;
+margin-bottom: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.latest-dell-info h1{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-dell-info p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.latest-deal input{
+    width: 500px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FFF;
+    margin-right:20px;
+    border: none;
+    padding-left: 30px;
+}
+.latest-deal button{
+    width: 100px;
+height: 40px;
+background-color: #E55473;
+border-radius: 5px;
+color: #FFF;
+font-size: 15px;
+font-weight: 700;
+border: none;
+
+}
+
+
+
+
+
+
+
+
 
 
 

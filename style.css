@@ -2,16 +2,120 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+/* this is the header section styling */
+
+.head{
+
+height: 650px;
+width: auto;
+background-color:#E554731A ;
+display: flex;
+justify-content: space-around;
+border:2px solid black;
+}
+
+
+.header-text{
+    width: 550px;
+    height: 450px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+
+.header-text-title{
+    color: #272727;
+font-family: Lato;
+font-size: 60px;
+font-weight: 800;
+}
+
+.header-text-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+padding-top: 20px;
+width: 450px;
+}
+
+.header-btn{
+    padding: 15px 35px;
+    gap: 10px;
+    background-color: #E55473;
+    border-radius: 6px;
+    border: none;
+    margin-top: 25px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+
+.header-img{
+ width: 500px;
+ height:610px;
+ background-image: url('images/pngwing 10.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin-top: 30px;
+}
+
+
+/* this is ending of the header section design. */
+
+
+
+/* this is the footer section design. */
+
+
+
+footer{
+    height:350px;
+    width: auto;
+    background-color: #000000;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
-.head{
+.footer-all-text{
 
-height: 850px;
-width: auto;
-background-color:#E554731A ;
-display: flex;
+width: 550px;
+text-align: center;
+}
 
+.footer-head{
+color: #ffffff;
+font-size: 38px;
+font-weight: 800;
+margin-bottom: 14px;
 
+}
+
+.footer-description{
+
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+
+}
+
+.additional-text{
+ color: rgba(255, 255, 255, 0.40);
+font-size: 13px;
+font-weight: 400;
+margin-top: 12px;
+}
+.flower-shop{
+    color:#E55473;
 }

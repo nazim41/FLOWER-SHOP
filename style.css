@@ -14,7 +14,6 @@ width: auto;
 background-color:#e554731a ;
 display: flex;
 justify-content: space-around;
-border:2px solid black;
 }
 
 
@@ -72,6 +71,79 @@ width: 450px;
 
 
 
+.feature-container{
+
+display: flex;
+justify-content: center;
+gap: 30px;
+
+}
+
+.feature{
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.feature h2{
+    text-align: center;
+    margin-top: 50px;
+    color: #272727;
+    font-size: 30px;
+     font-weight: 800;
+}
+
+.feature p{
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 15px;
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+}
+
+.feature-image{
+    height: 400px;
+    width: 320px;
+    background-color: #E55473;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.feature-image img{
+    height: 300px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+
+.feature-image-2{
+    background-color:#0597A026 ;
+}
+
+
+.feature-image-3{
+
+background-color: #477D1126;
+}
+
+
+.feature-metarial p{
+    text-align: center;
+     margin-top: 10px;
+    color: #272727;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+
+}
 .hot-deal{
     height: 470px;
     width: auto;
@@ -121,6 +193,9 @@ border: none;
 }
 
 
+#off{
+    color:#E55473;
+}
 .instagram{
     height: 600px;
     width: 80%;
@@ -192,6 +267,7 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+padding-bottom: 20px;
 }
 
 .latest-deal input{
@@ -215,16 +291,18 @@ border: none;
 
 }
 
+/* this is he creative section design. */
 
 
 
+#facebook-text{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #272727;
 
-
-
-
-
-
-
+}
 /* this is the footer section design. */
 
 
